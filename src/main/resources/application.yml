@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+spring:
+  application:
+    name: demo
+  datasource:
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/test
